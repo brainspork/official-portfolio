@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="portfolio">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Anthony Konschuh</title>
+    <link rel="stylesheet" href="/vendor/style/style.css">
+    <link rel="stylesheet" href="/style/style.css">
+  </head>
+  <body>
+    <main-nav></main-nav>
+    <main>
+      <div ng-view></div>
+    </main>
+    <lower-nav></lower-nav>
+    <script src="/script/jquery/dist/jquery.min.js"></script>
+    <script src="/script/angular/angular.min.js"></script>
+    <script src="/script/angular-route/angular-route.min.js"></script>
+    <script src="/app/app.module.js"></script>
+    <script src="/app/app.config.js"></script>
+    <script src="/app/main-nav/main-nav.module.js"></script>
+    <script src="/app/main-nav/main-nav.component.js"></script>
+    <script src="/app/lower-nav/lower-nav.module.js"></script>
+    <script src="/app/lower-nav/lower-nav.component.js"></script>
+    <script src="/app/home/home.module.js"></script>
+    <script src="/app/home/home.component.js"></script>
+  </body>
+</html>
