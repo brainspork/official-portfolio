@@ -1,0 +1,19 @@
+<section class="project-view">
+  <img src="{{$ctrl.project.imageUrl}}">
+  <article>
+    <h3>{{$ctrl.project.name}}</h3>
+    <h5>Project Status</h5>
+    <p>{{$ctrl.project.status}}</p>
+    <h5>Description</h5>
+    <p>{{$ctrl.project.description}}</p>
+    <h5>Technologies</h5>
+    <ul>
+      <li ng-repeat="tech in $ctrl.project.technologies">{{tech}}</li>
+    </ul>
+    <h5>Contributers</h5>
+    <ul>
+      <li ng-repeat="contributer in $ctrl.project.contributers">{{contributer}}</li>
+    </ul>
+  </article>
+  <button><a href="{{$ctrl.project.deployed}}" target="_blank">Vist Site</a></button>
+</section>

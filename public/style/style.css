@@ -60,7 +60,7 @@ h1 {
 h2 {
   font-size: 4vw; }
 
-h3 {
+h3, h5 {
   font-size: 5vw;
   font-weight: 700;
   margin-bottom: 1%;
@@ -183,6 +183,31 @@ header .show-nav {
       width: 100%;
       padding: 4% 0;
       background: rgba(0, 0, 0, 0.75); }
+
+.project-view img {
+  display: block;
+  width: 30%;
+  margin: 2% auto;
+  border-radius: 3px; }
+.project-view a {
+  font-size: 5vw; }
+.project-view article {
+  width: 92%;
+  padding: 2%;
+  margin: 0 auto; }
+  .project-view article h3, .project-view article h5 {
+    text-align: center; }
+  .project-view article h5 {
+    margin-top: 5%; }
+  .project-view article p {
+    margin-left: 2%;
+    line-height: 6vw;
+    text-align: center; }
+  .project-view article li {
+    font-size: 5vw;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    text-align: center; }
 
 footer p {
   float: left;

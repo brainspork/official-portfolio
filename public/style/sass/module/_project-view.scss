@@ -1,0 +1,38 @@
+.project-view {
+  img {
+    display: block;
+    width: 30%;
+    margin: 2% auto;
+    border-radius: 3px;
+  }
+
+  a {
+    font-size: 5vw;
+  }
+
+  article {
+    width: 92%;
+    padding: 2%;
+    margin: 0 auto;
+    h3, h5 {
+      text-align: center;
+    }
+
+    h5 {
+      margin-top: 5%;
+    }
+
+    p {
+      margin-left: 2%;
+      line-height: 6vw;
+      text-align: center;
+    }
+
+    li {
+      font-size: 5vw;
+      margin-left: 2%;
+      margin-bottom: 2%;
+      text-align: center;
+    }
+  }
+}
