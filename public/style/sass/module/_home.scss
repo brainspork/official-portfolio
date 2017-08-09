@@ -1,0 +1,49 @@
+.home {
+  .banner {
+    width: 100%;
+    position: relative;
+    img {
+      width: 100%;
+    }
+
+    h4 {
+      position: absolute;
+      top: 5%;
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  article {
+    background-color: $primary;
+    width: 96%;
+    margin: 0 auto;
+    padding: 2%;
+    h3 {
+      text-align: center;
+      margin-bottom: 1%;
+      padding-bottom: 1%;
+      border-bottom: 1px solid #888;
+    }
+
+    p {
+      text-align: center;
+      margin-bottom: 2%;
+      padding-bottom: 2%;
+      color: #888;
+      border-bottom: 1px solid #888;
+    }
+
+    p:last-of-type {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+  }
+
+  button {
+    a {
+      font-size: 5vw;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+header {
+  hgroup {
+    display: inline-block;
+    width: 50%;
+    margin: 2%;
+  }
+
+  span {
+    float: right;
+    font-size: 10vw;
+    margin: 1% 2%;
+  }
+
+  nav {
+    float: left;
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    height: 200vw;
+    transform: translateY(-200%);
+    transition: all 350ms;
+    z-index: 99999;
+    ul {
+      margin-top: 25%;
+      li {
+        font-size: 10vw;
+        text-align: center;
+        width: 100%;
+        a, a:visited {
+          display: block;
+          padding: 2% 0;
+          color: $secondary;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .show-nav {
+    transform: none;
+  }
+}
+
+.scroll-stop {
+  overflow: hidden;
+}

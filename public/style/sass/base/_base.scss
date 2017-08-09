@@ -1,0 +1,46 @@
+$primary: #000;
+$secondary: #fff;
+$highlight: #444;
+$font: Helvetica, sans-serif;
+//EFEFEF - highlight?
+
+body {
+  font-family: $font;
+  color: #fff;
+  background: $primary;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  font-size: 5vw;
+}
+
+h2 {
+  font-size: 4vw;
+}
+
+h3 {
+  font-size: 5vw;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 10vw;
+}
+
+p {
+  font-size: 5vw;
+}
+
+button {
+  display: block;
+  margin: 2% auto;
+  padding: 1% 2%;
+  background: $highlight;
+  border: none;
+  border-radius: 3px;
+}
