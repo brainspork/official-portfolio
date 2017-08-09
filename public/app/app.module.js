@@ -1,4 +1,4 @@
 'use strict';
 
 angular.
-  module('portfolio', ['ngRoute', 'mainNav', 'lowerNav', 'home']);
+  module('portfolio', ['ngRoute', 'mainNav', 'lowerNav', 'home', 'project']);

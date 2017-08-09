@@ -9,5 +9,11 @@ angular.
         when('/home', {
           template: '<home></home>'
         }).
+        when('/projects', {
+          template: '<project></project>'
+        }).
+        when('/projects/:name', {
+          templates: '<project-view></project-view>'
+        }).
         otherwise('/home');
 }]);

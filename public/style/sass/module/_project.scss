@@ -1,0 +1,31 @@
+.project {
+  h3 {
+    text-align: center;
+  }
+
+  li {
+    width: 100%;
+    margin: 4% 0;
+    a {
+      display: block;
+      position: relative;
+      margin: 0 auto;
+      width: 75vw;
+      border-radius: 100%;
+      img {
+        width: 75vw;
+        height: 75vw;
+        border-radius: 100%;
+      }
+
+      p {
+        position: absolute;
+        top: calc(50% - 2.5vw);
+        text-align: center;
+        width: 100%;
+        padding: 4% 0;
+        background: rgba(0, 0, 0, 0.75);
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<section class="project">
+  <h3>Projects</h3>
+  <ul>
+    <li ng-repeat="project in $ctrl.projects">
+      <a href="/#!/projects/{{project.name}}">
+        <img src="{{project.bannerUrl}}">
+        <p>{{project.name}}</p>
+      </a>
+    </li>
+  </ul>
+</section>
