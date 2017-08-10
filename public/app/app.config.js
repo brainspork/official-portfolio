@@ -15,5 +15,8 @@ angular.
         when('/project/:name', {
           template: '<project-view></project-view>'
         }).
+        when('/about', {
+          template: '<about></about>'
+        }).
         otherwise('/home');
 }]);

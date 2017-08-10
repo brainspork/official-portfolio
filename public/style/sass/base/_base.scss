@@ -4,6 +4,10 @@ $highlight: #444;
 $font: Helvetica, sans-serif;
 //EFEFEF - highlight?
 
+.clear-fix {
+  clear: both;
+}
+
 body {
   font-family: $font;
   color: #fff;
@@ -37,6 +41,7 @@ h4 {
 
 p {
   font-size: 5vw;
+  color: #888;
 }
 
 button {

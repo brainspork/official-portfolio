@@ -6,11 +6,11 @@
 
   <span class="icon-menu" ng-click="$ctrl.showNav()"></span>
   <nav>
-    <ul>
+    <ul ng-click="$ctrl.hideNav()">
       <li><a href="/#!/home">Home</a></li>
-      <li><a href="/#!/about">About</a></li>
+      <li><a href="/#!/"><strike>About</strike></a></li>
       <li><a href="/#!/projects">Projects</a></li>
-      <li><a href="/#!/contact">Contact</a></li>
+      <li><a href="/#!/"><strike>Contact</strike></a></li>
     </ul>
   </nav>
 </header>

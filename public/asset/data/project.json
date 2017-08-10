@@ -6,7 +6,7 @@
     "bannerUrl" : "asset/image/desktop-mtgfinder.PNG",
     "deployed" : "https://mtgfinder.herokuapp.com/#!/home",
     "description" : "An app that allows a user to view information about specific Magic the Gathering cards. Uses the MTG dev Javascript SDK for the information and Mana MTG card symbol font.",
-    "technologies" : ["Node.js", "Javascript", "jquery", "angularJS", "HTML5", "SCSS"],
+    "technologies" : ["nodejs", "javascript", "jquery", "angularjs", "html5", "sass"],
     "contributers" : ["Anthony Konschuh"]
   },
   {
@@ -16,7 +16,7 @@
     "bannerUrl" : "asset/image/mobile-gystlist.PNG",
     "deployed" : "https://gystlist.herokuapp.com/",
     "description" : "An app that I built for practice that allows a user to make a todo list and sort it by task type. WARNING: View in mobile mode as desktop view is incomplete.",
-    "technologies" : ["Node.js", "Javascript", "jquery", "HTML5", "SCSS", "postgres SQL"],
+    "technologies" : ["nodejs", "javascript", "jquery", "html5", "sass", "postgresql"],
     "contributers" : ["Anthony Konschuh"]
   },
   {
@@ -26,7 +26,7 @@
     "bannerUrl" : "asset/image/desktop-weatherornot.png",
     "deployed" : "https://weather0rn0t.herokuapp.com/",
     "description" : "An app that helps a user find weather data along a chosen driving route. Uses google maps api and simple weather jquery plugin for data.",
-    "technologies" : ["Node.js", "Javascript", "jquery", "HTML5", "SCSS"],
+    "technologies" : ["nodejs", "javascript", "jquery", "html5", "sass"],
     "contributers" : ["Tim Turner", "Matthew Staples", "Andy Martin", "Anthony Konschuh"]
   }
 ]

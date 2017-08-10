@@ -33,6 +33,24 @@
       margin-left: 2%;
       margin-bottom: 2%;
       text-align: center;
+      color: #888;
+    }
+
+    .technologies {
+      display: block;
+      margin: 0 auto;
+      li {
+        float: left;
+        width: 30%;
+        margin-top: 5%;
+        span {
+          font-size: 7.5vw;
+        }
+
+        p {
+          margin-top: 2%;
+        }
+      }
     }
   }
 }

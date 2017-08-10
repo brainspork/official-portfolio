@@ -11,5 +11,10 @@ angular.
           $('nav').toggleClass('show-nav');
           $('body').toggleClass('scroll-stop');
         }
+
+        vm.hideNav = function () {
+          $('nav').removeClass('show-nav');
+          $('body').removeClass('scroll-stop');
+        }
       }
     });
