@@ -3,3 +3,10 @@ header {
   background: $primary;
   z-index: 999999;
 }
+
+@media only screen and (min-width: 640px) {
+  .limiter {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
