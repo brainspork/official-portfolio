@@ -90,12 +90,23 @@ header {
   background: #000;
   z-index: 999999; }
 
+@media only screen and (min-width: 640px) {
+  .limiter {
+    max-width: 960px;
+    margin: 0 auto; } }
 main {
   width: 100%; }
 
 section {
   width: 100%; }
 
+@media only screen and (min-width: 960px) {
+  main {
+    max-width: 960px;
+    margin: 0 auto; }
+
+  section {
+    max-width: 960px; } }
 footer {
   width: 100%;
   background: #000;
@@ -103,7 +114,7 @@ footer {
 
 header hgroup {
   display: inline-block;
-  width: 50%;
+  width: 65%;
   margin: 2%; }
 header span {
   float: right;
@@ -135,6 +146,31 @@ header .show-nav {
 .scroll-stop {
   overflow: hidden; }
 
+@media only screen and (min-width: 640px) {
+  header div hgroup h1 {
+    font-size: 50px; }
+  header div hgroup h2 {
+    font-size: 35px; }
+  header div span {
+    display: none; }
+  header div nav {
+    transform: none;
+    background: none;
+    transition: none;
+    position: static;
+    float: none;
+    width: 100%;
+    height: auto; }
+    header div nav ul {
+      margin: 0 auto; }
+      header div nav ul li {
+        font-size: 30px;
+        float: left;
+        width: auto;
+        padding: 0 2%; }
+        header div nav ul li a {
+          display: inline-block;
+          width: auto; } }
 .home .banner {
   width: 100%;
   position: relative; }
@@ -165,29 +201,61 @@ header .show-nav {
 .home button a {
   font-size: 5vw; }
 
+@media only screen and (min-width: 640px) {
+  .home .banner h4 {
+    margin-top: 4%; } }
+@media only screen and (min-width: 960px) {
+  .home .banner {
+    max-width: 960px;
+    margin: 0 auto; }
+    .home .banner h4 {
+      margin-top: 3%;
+      font-size: 100px; }
+  .home article h3, .home article p {
+    font-size: 50px; }
+  .home button a {
+    font-size: 50px; } }
 .project h3 {
   text-align: center; }
-.project li {
-  width: 100%;
-  margin: 4% 0; }
-  .project li a {
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    width: 75vw;
-    border-radius: 100%; }
-    .project li a img {
+.project ul {
+  width: 100%; }
+  .project ul li {
+    width: 100%;
+    margin: 4% 0; }
+    .project ul li a {
+      display: block;
+      position: relative;
+      margin: 0 auto;
       width: 75vw;
-      height: 75vw;
       border-radius: 100%; }
-    .project li a p {
-      position: absolute;
-      top: calc(50% - 2.5vw);
-      text-align: center;
-      width: 100%;
-      padding: 4% 0;
-      background: rgba(0, 0, 0, 0.75); }
+      .project ul li a img {
+        width: 75vw;
+        height: 75vw;
+        border-radius: 100%; }
+      .project ul li a p {
+        position: absolute;
+        top: calc(50% - 2.5vw);
+        text-align: center;
+        width: 100%;
+        padding: 4% 0;
+        background: rgba(0, 0, 0, 0.75); }
 
+@media only screen and (min-width: 640px) {
+  .project h3 {
+    font-size: 50px;
+    margin-top: 4%; }
+  .project ul li {
+    float: left;
+    width: 29%;
+    margin: 5% 2% 10% 2%; }
+    .project ul li a {
+      display: inline-block;
+      width: 100%; }
+      .project ul li a img {
+        width: 100%;
+        height: auto; }
+      .project ul li a p {
+        font-size: 25px; } }
 .project-view img {
   display: block;
   width: 30%;
@@ -225,6 +293,17 @@ header .show-nav {
       .project-view article .technologies li p {
         margin-top: 2%; }
 
+@media only screen and (min-width: 960px) {
+  .project-view article h3, .project-view article h5, .project-view article p, .project-view article li {
+    font-size: 50px; }
+  .project-view article p {
+    line-height: normal; }
+  .project-view article .technologies li span {
+    font-size: 75px; }
+  .project-view article .technologies li p {
+    font-size: 50px; }
+  .project-view a {
+    font-size: 50px; } }
 footer p {
   float: left;
   margin: 3% 2%;
@@ -234,5 +313,14 @@ footer aside {
   margin: 2%; }
   footer aside a {
     font-size: 5vw; }
+
+@media only screen and (min-width: 960px) {
+  footer {
+    max-width: 960px;
+    margin: 0 auto; }
+    footer p {
+      font-size: 25px; }
+    footer aside a {
+      font-size: 50px; } }
 
 /*# sourceMappingURL=style.css.map */

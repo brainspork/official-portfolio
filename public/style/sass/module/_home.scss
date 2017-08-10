@@ -44,3 +44,39 @@
     }
   }
 }
+
+@media only screen and (min-width: 640px) {
+  .home {
+    .banner {
+      h4{
+        margin-top: 4%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .home {
+    .banner {
+      max-width: 960px;
+      margin: 0 auto;
+
+      h4 {
+        margin-top: 3%;
+        font-size: 100px;
+      }
+    }
+
+    article {
+      h3, p {
+        font-size: 50px;
+      }
+    }
+    
+    button {
+      a {
+        font-size: 50px;
+      }
+    }
+  }
+}
