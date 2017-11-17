@@ -1,7 +1,35 @@
 <section class="about">
-  <img src="http://placehold.it/960X400">
-  <h3>About</h3>
-  <h5>Work</h5>
-  <h5>School</h5>
-  <h5>Personal</h5>
+  <img src="asset/image/aboutTempBanner.jpg">
+  <article>
+    <h3>About</h3>
+
+    <h5>Skills</h5>
+    <p>{{$ctrl.about.skills[0]}}</p>
+    <p>{{$ctrl.about.skills[1]}}</p>
+    <h6>Proficient</h6>
+    <ul class="technologies">
+      <li ng-repeat="tech in $ctrl.about.proficient">
+        <span class="{{tech | techicon}}"></span>
+        <p>{{tech}}</p>
+      </li>
+    </ul>
+    <div class="clear-fix"></div>
+    <h6>Learning</h6>
+    <ul class="technologies">
+      <li ng-repeat="tech in $ctrl.about.learning">
+        <span class="{{tech | techicon}}"></span>
+        <p>{{tech}}</p>
+      </li>
+    </ul>
+    <div class="clear-fix"></div>
+    <h5>Schooling</h5>
+    <ul>
+      <li ng-repeat="school in $ctrl.about.schools">
+        <h6>{{school.name}}</h6>
+        <p>{{school.years}}</p>
+        <p>{{school.classes}}</p>
+        <p>{{school.notes}}</p>
+      </li>
+    </ul>
+  </article>
 </section>
