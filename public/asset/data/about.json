@@ -1,0 +1,25 @@
+{
+  "skills": [	"My computer programming journey started with a code school in Seattle Washington called Code Fellows. The courses I attended gave me a strong understanding of front end web development principles and practices. Now I am building on what I learned at Code Fellows by self teaching and taking online courses.", "I familiar with mobile-first and responsive design principles. I have a good understanding of how to integrate JavaScript libraries and frameworks into projects. I am familiar with version control and primarily use Github and the command line. I have experience with service and API integration using asynchronous design patterns."
+],
+  "schools" : [
+    {"name" : "Code Fellows",
+    "years" : null,
+    "classes" : "201: Foundations of Software Development and 301: Intermediate Software Design",
+    "notes" : "Learned foundations of HTML, CSS, and JavaScript to create a functional web app. Learned foundations of single page, mobile-first web design, the MVC pattern, and RESTful API intigration."},
+    {
+      "name" : "South Puget Sound Community College",
+      "years" : "1 year",
+      "classes" : "Calculus I & II, Physics I",
+      "notes" : "Took pre-requisite classes for Engineering"
+    },
+    {
+      "name" : "Central Washington University",
+      "years" : "2 years",
+      "classes" : "Law & Justice, Minor in Psychology",
+      "notes" : "(did not complete)"
+    }  
+  ],
+  "personal" : [],
+  "proficient" : ["javascript", "nodejs", "jquery", "angularjs", "html5", "sass", "css3"],
+  "learning" : ["react", "mongodb", "postgresql", "csharp"]
+}

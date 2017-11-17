@@ -10,16 +10,6 @@
     "contributers" : ["Anthony Konschuh"]
   },
   {
-    "name" : "GYST List",
-    "status" : "In Progress",
-    "imageUrl" : "asset/image/mobile-gystlist.PNG",
-    "bannerUrl" : "asset/image/desktop-gystlist.PNG",
-    "deployed" : "https://gystlist.herokuapp.com/",
-    "description" : "An app that I built for practice that allows a user to make a todo list and sort it by task type. WARNING: View in mobile mode as desktop view is incomplete.",
-    "technologies" : ["nodejs", "javascript", "jquery", "html5", "sass", "postgresql"],
-    "contributers" : ["Anthony Konschuh"]
-  },
-  {
     "name" : "Weather or Not",
     "status" : "Complete",
     "imageUrl" : "asset/image/mobile-weatherornot.PNG",

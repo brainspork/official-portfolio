@@ -1,39 +1,26 @@
-.project-view {
+.about {
   img {
-    display: block;
-    width: 30%;
-    margin: 2% auto;
-    border-radius: 3px;
-  }
-
-  a {
-    font-size: 5vw;
+    width: 100%;
+    margin-top: 2%;
   }
 
   article {
     width: 92%;
     padding: 2%;
     margin: 0 auto;
-    h3, h5 {
+    h3, h5, h6 {
       text-align: center;
     }
 
-    h5 {
-      margin-top: 5%;
+    h5{
+      margin-top: center;
+      border-bottom: none;
+      margin-top: 2%;
     }
 
     p {
-      margin-left: 2%;
-      line-height: 6vw;
       text-align: center;
-    }
-
-    li {
-      font-size: 5vw;
-      margin-left: 2%;
-      margin-bottom: 2%;
-      text-align: center;
-      color: #888;
+      margin: 2% 2% 4% 2%;
     }
 
     .technologies {
@@ -41,10 +28,12 @@
       margin: 0 auto;
       li {
         float: left;
-        width: 30%;
-        margin-top: 5%;
+        width: 33%;
+        margin: 5% auto 0 auto;
+        text-align: center;
         span {
           font-size: 7.5vw;
+          color: #888;
         }
 
         p {
@@ -56,9 +45,9 @@
 }
 
 @media only screen and (min-width: 960px) {
-  .project-view {
+  .about {
     article {
-      h3, h5, li {
+      h3, h5, h6, li {
         font-size: 50px;
       }
 

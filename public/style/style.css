@@ -73,6 +73,10 @@ h3, h5 {
 h4 {
   font-size: 10vw; }
 
+h6 {
+  font-size: 5vw;
+  font-weight: 200; }
+
 p {
   font-size: 5vw;
   color: #888; }
@@ -175,7 +179,8 @@ header .show-nav {
   width: 100%;
   position: relative; }
   .home .banner img {
-    width: 100%; }
+    width: 100%;
+    margin-top: 2%; }
   .home .banner h4 {
     position: absolute;
     top: 5%;
@@ -211,9 +216,53 @@ header .show-nav {
     .home .banner h4 {
       margin-top: 3%;
       font-size: 100px; }
-  .home article h3, .home article p {
+  .home article h3 {
     font-size: 50px; }
+  .home article p {
+    font-size: 40px; }
   .home button a {
+    font-size: 50px; } }
+.about img {
+  width: 100%;
+  margin-top: 2%; }
+.about article {
+  width: 92%;
+  padding: 2%;
+  margin: 0 auto; }
+  .about article h3, .about article h5, .about article h6 {
+    text-align: center; }
+  .about article h5 {
+    margin-top: center;
+    border-bottom: none;
+    margin-top: 2%; }
+  .about article p {
+    text-align: center;
+    margin: 2% 2% 4% 2%; }
+  .about article .technologies {
+    display: block;
+    margin: 0 auto; }
+    .about article .technologies li {
+      float: left;
+      width: 33%;
+      margin: 5% auto 0 auto;
+      text-align: center; }
+      .about article .technologies li span {
+        font-size: 7.5vw;
+        color: #888; }
+      .about article .technologies li p {
+        margin-top: 2%; }
+
+@media only screen and (min-width: 960px) {
+  .about article h3, .about article h5, .about article h6, .about article li {
+    font-size: 50px; }
+  .about article p {
+    line-height: normal;
+    font-size: 40px; }
+  .about article .technologies li span {
+    font-size: 75px; }
+  .about article .technologies li p {
+    font-size: 40px; }
+  .about a {
     font-size: 50px; } }
 .project h3 {
   text-align: center; }
@@ -255,7 +304,8 @@ header .show-nav {
         width: 100%;
         height: auto; }
       .project ul li a p {
-        font-size: 25px; } }
+        font-size: 25px;
+        top: calc(50% - 12.5px); } }
 .project-view img {
   display: block;
   width: 30%;
@@ -294,14 +344,15 @@ header .show-nav {
         margin-top: 2%; }
 
 @media only screen and (min-width: 960px) {
-  .project-view article h3, .project-view article h5, .project-view article p, .project-view article li {
+  .project-view article h3, .project-view article h5, .project-view article li {
     font-size: 50px; }
   .project-view article p {
-    line-height: normal; }
+    line-height: normal;
+    font-size: 40px; }
   .project-view article .technologies li span {
     font-size: 75px; }
   .project-view article .technologies li p {
-    font-size: 50px; }
+    font-size: 40px; }
   .project-view a {
     font-size: 50px; } }
 footer p {
@@ -313,6 +364,8 @@ footer aside {
   margin: 2%; }
   footer aside a {
     font-size: 5vw; }
+    footer aside a span {
+      color: #888; }
 
 @media only screen and (min-width: 960px) {
   footer {
