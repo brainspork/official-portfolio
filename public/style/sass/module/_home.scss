@@ -4,6 +4,7 @@
     position: relative;
     img {
       width: 100%;
+      margin-top: 2%;
     }
 
     h4 {
@@ -68,11 +69,15 @@
     }
 
     article {
-      h3, p {
+      h3 {
         font-size: 50px;
       }
+
+      p {
+        font-size: 40px;
+      }
     }
-    
+
     button {
       a {
         font-size: 50px;
